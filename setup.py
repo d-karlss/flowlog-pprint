@@ -11,6 +11,7 @@ setuptools.setup(
             'flowlog_pprint = flowlog_prettyprint.__main__:main'
         ]
     },
+    url="https://github.com/d-karlss/flowlog-pprint",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

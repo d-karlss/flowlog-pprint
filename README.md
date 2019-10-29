@@ -1,4 +1,4 @@
-## Pretty print AWS Flowlogs
+## Pretty print AWS VPC Flow Logs
 
 ### Install
 `pip3 install flowlog-pprint`

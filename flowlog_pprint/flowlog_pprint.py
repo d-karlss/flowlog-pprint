@@ -46,7 +46,7 @@ def date_string(epoch):
     try:
         enum = int(epoch)
         return datetime.datetime.fromtimestamp(enum).strftime('%H:%M:%S')
-    except ValueError:
+    except (ValueError, TypeError):
         return None
 
 

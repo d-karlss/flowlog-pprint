@@ -3,3 +3,5 @@ example
 .idea
 *.iml
 *.pyc
+build
+dist
